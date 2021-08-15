@@ -1,0 +1,115 @@
+h1, h5{
+    font-family: 'Patrick Hand', cursive;
+    padding: 25px;
+
+}
+#container {
+border: 3px solid black;
+background-color: #999999;
+}
+.text-dark{
+    border: 2px solid black;
+    width: 100%;
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #fff;
+}
+.collapse a{
+    text-decoration: none;
+    color: black;
+}
+.collapse a:hover{
+    font-size: 120%;
+    
+}
+.collapse{
+    margin-right: auto;
+    margin-left: auto;
+    width: 300%;
+    margin: 0;
+    text-align: center;
+}
+.main-line{
+    text-align: center;
+}
+
+/* main contents */
+.col-sm-12  {
+    background-color: #999999;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 30vh;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+    margin-bottom: 15px;
+
+}
+.col-sm-12 h2{
+    font-weight: bold;
+    text-align: center;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 99%;
+    margin: 0;
+    padding: 0;
+    
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+/* xlarg screen */
+@media  (min-width:1200px) {
+    .col-xl-12{
+        width: 99%;
+        height: fit-content;
+        margin: 10px 15px ;
+    }
+    
+    
+}
+/* larg screen */
+@media  (min-width:992px) and (max-width:1199px) {
+    .col-lg-4{
+        width: 49%;
+        height: fit-content;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .col-lg-12{
+        height: fit-content;
+        width: 99%;
+        margin: 10px 10px;
+        }
+}
+/* medium screen */
+@media  (min-width:768px) and (max-width:991px) {
+    .col-md-6{
+        width: 49%;
+    height: fit-content;
+    margin-right: 3px;
+    margin-left: 4px;
+        }
+    .col-md-12{
+        height: fit-content;
+        width: 100%;
+        margin: 10px 0.5%;
+        }
+}
+/* small screen */
+@media  (min-width:0px) and (max-width:767px) {
+    .col-sm-12 {
+        width: 49%;
+    height: fit-content;
+    margin-right: 3px;
+    margin-left: 4px;
+        }
+    .col-sm-12 {
+        height: fit-content;
+        width: 96%;
+        margin: 15px 10px 15px 10px;
+        }
+}
